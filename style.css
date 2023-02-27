@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+:root{
+    --fonte-principal:'Cinzel', serif;
+    --cor-principal: #DFF6FF ;
+    --cor-bg: #06283D;
+}
+
+body{
+    background-color: var(--cor-bg);
+    color: var(--cor-principal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-principal);
+}
+
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+}
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    font-size: 4em;
+    border: 2px solid var(--cor-principal);
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 36px 36px 36px 4px ;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 24px;
+    background: var(--cor-principal);
+    color: black;
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
